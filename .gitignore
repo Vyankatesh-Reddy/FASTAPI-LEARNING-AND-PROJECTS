@@ -1,0 +1,14 @@
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+.pytest_cache/
+.idea/
+.vscode/
+.DS_Store
+
+# Large trained ML models
+House_Prediction_API/house_model.joblib
